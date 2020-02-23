@@ -1,0 +1,340 @@
+:root {
+    --primario: #f46669;
+    --secundario: #c7c57d;
+    --gris: #f5f5f5;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    color:#303030;
+}
+p, h6 {
+    font-weight: 100;
+    line-height: 3.4rem;
+    font-size: 1.2rem;
+}
+
+
+/* Header */
+.navbar-light .navbar-nav .nav-link {
+    color: #000000;
+}
+
+header .navbar {
+    border-top: 1px dashed #b4b0b0;
+    border-bottom: 1px dashed #b4b0b0;
+}
+
+@media (min-width: 768px) {
+    header .navbar {
+        border: none;
+    }
+}
+
+
+/* Imagenes principales */
+.bg-primary {
+    background-color: #f46669!important;
+}
+
+.principal .bg-primary,
+.principal .bg-secondary {
+    min-height: 30rem;
+}
+
+.bg-up {
+    background-image: url(../img/principal1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 25rem;
+}
+
+@media (min-width: 768px) {
+    .bg-up {
+        min-height: 45rem;
+    }
+}
+
+.bg-secondary {
+    background-color: #c7c57d!important;
+}
+
+.bg-down {
+    background-image: url(../img/principal2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 25rem;
+}
+
+@media (min-width: 768px) {
+    .bg-down {
+        min-height: 45rem;
+    }
+}
+
+.img-up .content {
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+}
+
+.img-down .content {
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+}
+
+.content p {
+    line-height: 2rem;
+}
+
+.img-down .bg-down {
+    order: 1;
+}
+
+@media (min-width: 768px) {
+    .img-down .bg-down {
+        order: unset;
+    }
+}
+
+
+/* About study */
+.separador::after {
+    content: '';
+    display: block;
+    height: 100px;
+    width: 300px;
+    background-image: url(../img/separador.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0 auto;
+}
+
+.separador2::after {
+    content: '';
+    display: block;
+    height: 100px;
+    width: 200px;
+    background-image: url(../img/separador-inverso.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0 auto;
+}
+
+.about-study h3 {
+    font-weight: 300;
+}
+
+
+/* Clases */
+.clases {
+    background-color: #f5f5f5;
+}
+
+.clases span {
+    font-size: 1rem;
+    color: #000000;
+}
+
+.badge-secondary {
+    background-color: #c7c57d!important;
+}
+
+.clases .card-title {
+    font-size: 1.8rem;
+}
+
+.clases .card-subtitle {
+    color: #f46669;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+.card p {
+    line-height: 2rem;
+    font-size: 1rem;
+}
+
+.card a {
+    color: #f46669;
+}
+
+
+/* Chef */
+.chef {
+    background-image: url(../img/chef_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+.chef .img-chef {
+    min-height: 30rem;
+}
+
+.chef h2 {
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.chef p {
+    font-size: 2rem;
+}
+
+.btn-primary {
+    background-color: #f46669!important;
+    border-color: #f46669!important;
+}
+
+.btn-primary:hover {
+    background-color: #fd4a4d!important;
+}
+
+
+/* Footer */
+.footer p {
+    line-height: 1.5rem;
+    font-size: .8rem;
+}
+
+.footer a {
+    color: #000000;
+    font-size: .9rem;
+}
+
+.footer span {
+    font-size: .9rem;
+}
+
+.footer span a {
+    color: #f46669;
+    font-weight: 700;
+}
+
+.footer {
+    border-bottom: 10px solid #f46669;
+}
+
+
+/* About */
+.about-img {
+    background-image: url(../img/principal1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 25rem;
+    background-size: cover;
+}
+
+.about {
+    border: 1px solid #ccc;
+    margin-top: -10rem;
+    background-color: #ffffff;
+}
+
+.about p {
+    line-height: 2rem;
+}
+
+aside h3 {
+    font-size: 2rem;
+}
+
+.entrada p {
+    line-height: 1.5rem;
+    color: #000000;
+    font-size: 1rem;
+}
+
+.meta {
+    font-weight: 700;
+}
+
+.entrada h2 a,
+.entrada .meta span,
+.entrada .meta a {
+    color: #fd4a4d;
+}
+
+.entrada h2 a:hover {
+    color: #fd4a4d!important;
+}
+
+.blockquote blockquote {
+    border-left: 3px solid #f46669;
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.new a {
+    color: #000000;
+}
+
+.new a:hover {
+    background-color: #96922f!important;
+}
+
+.new p {
+    color: #f46669;
+    font-weight: 400;
+}
+
+.new .card-title {
+    font-size: 1.2rem;
+    color: #000000;
+}
+
+aside li {
+    list-style: none;
+}
+
+.bg-class {
+    background-color: #ffffff;
+}
+
+
+/* Contacto */
+.contact-img {
+    background-image: url(../img/principal2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 25rem;
+    background-size: cover;
+}
+
+
+/* Clase */
+.class-img {
+    background-image: url(../img/clase1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 25rem;
+    background-size: cover;
+}
+
+.list-group-item-primary {
+    background-color: #fd4a4d!important;
+}
+
+.list-group-item-secondary {
+    background-color: #c7c57d;
+}
+
+.instructor h3 {
+    color: #f46669;
+    font-weight: 300;
+}
+
+.instructor p {
+    line-height: 2rem;
+    font-size: 1.2rem;
+}
+
+.instructor img {
+    height: 18rem;
+    border-radius: 50%;
+}
+
+.instructor h4 {
+    font-size: 2rem;
+}
